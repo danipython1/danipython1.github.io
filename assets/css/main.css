@@ -1457,3 +1457,47 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* LD8 custom content */
+.portfolio-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+  height: 100%;
+}
+.portfolio-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: contain;
+  background: #f7f8f9;
+  padding: 12px;
+}
+.portfolio-card-body {
+  padding: 20px;
+}
+.portfolio-card-body h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.custom-content-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+}
+.service-table th {
+  background: #f7f8f9;
+}
+.custom-list {
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+.custom-list li {
+  margin-bottom: 10px;
+}
+.media-box video,
+.media-box audio,
+.media-box iframe {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
