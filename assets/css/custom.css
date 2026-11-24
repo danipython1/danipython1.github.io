@@ -342,7 +342,7 @@ a:focus-visible, button:focus-visible {
 @keyframes ld10-rotate{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
 @media(max-width:900px){.ld10-board{grid-template-columns:1fr 1fr}.ld10-column:last-child{grid-column:1/-1}}
 @media(max-width:620px){.ld10-summary{padding:16px}.ld10-summary-grid,.ld10-stats,.ld10-board{grid-template-columns:1fr}.ld10-column:last-child{grid-column:auto}.ld10-stats>div{border-right:0;border-bottom:1px solid #e5ecf2}.ld10-stats>div:last-child{border-bottom:0}.ld10-metric{padding:14px}.ld10-shape-card{width:100%}}
-@media(prefers-reduced-motion:reduce){#services,.ld10-circle,.ld10-triangle{animation:none!important}}
+
 
 /* LD11 – kontaktų forma */
 .ld11-panel { max-width: 960px; margin: 0 auto; padding: clamp(18px, 4vw, 36px); background: #fff; border: 1px solid #ccdde7; border-radius: 16px; box-shadow: 0 7px 22px rgba(20,51,75,.07); }
