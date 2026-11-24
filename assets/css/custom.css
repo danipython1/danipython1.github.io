@@ -343,3 +343,20 @@ a:focus-visible, button:focus-visible {
 @media(max-width:900px){.ld10-board{grid-template-columns:1fr 1fr}.ld10-column:last-child{grid-column:1/-1}}
 @media(max-width:620px){.ld10-summary{padding:16px}.ld10-summary-grid,.ld10-stats,.ld10-board{grid-template-columns:1fr}.ld10-column:last-child{grid-column:auto}.ld10-stats>div{border-right:0;border-bottom:1px solid #e5ecf2}.ld10-stats>div:last-child{border-bottom:0}.ld10-metric{padding:14px}.ld10-shape-card{width:100%}}
 @media(prefers-reduced-motion:reduce){#services,.ld10-circle,.ld10-triangle{animation:none!important}}
+
+/* LD11 – kontaktų forma */
+.ld11-panel { max-width: 960px; margin: 0 auto; padding: clamp(18px, 4vw, 36px); background: #fff; border: 1px solid #ccdde7; border-radius: 16px; box-shadow: 0 7px 22px rgba(20,51,75,.07); }
+.ld11-panel .form-label { font-weight: 700; color: #162b42; }
+.ld11-panel .form-control { min-height: 46px; border: 1px solid #a9bdcc; border-radius: 8px; padding: 10px 12px; }
+.ld11-panel .form-control:focus { border-color: #086b96; box-shadow: 0 0 0 3px #d9edf7; }
+.ld11-panel .form-control[aria-invalid="true"] { border-color: #b42318; }
+.ld11-error { color: #b42318; font-size: .87rem; min-height: 1.4em; margin-top: 4px; }
+.ld11-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+.ld11-actions button:disabled { background: #dce3e8; color: #52616b; border-color: #dce3e8; box-shadow: none; transform: none; cursor: not-allowed; }
+#clear-button { background: #fff; color: #086b96; }
+#clear-button:hover { background: #e9f3f8; }
+.ld11-result { margin-top: 24px; padding: 20px; background: #edf5f9; border-radius: 12px; overflow-wrap: anywhere; }
+.ld11-result dl { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px 16px; }
+.ld11-result dd { margin: 0; }
+#result-average { font-weight: 700; margin-bottom: 0; }
+@media (max-width: 480px) { .ld11-result dl { grid-template-columns: 1fr; } .ld11-result dd { margin-bottom: 8px; } }
